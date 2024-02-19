@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1300px;
+    margin: 0 auto 0 auto;
+}
+
+header{
+    display: flex;
+    background-color: #101c34;
+    margin: 10 auto 10 auto;
+    width: 1300px;
+    height: 100px;
+}
+
+.imgcinesa{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgcinesa img{
+    width: 170px;
+    margin: auto 25px auto 25px;
+}
+
+.menu1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu1 li{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    white-space:nowrap;
+    padding: 10px;
+    text-align: center;
+    width: 143px;
+    color: white;
+}
+
+.menu2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu2 li{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    white-space:nowrap;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.menu2 li:last-child{
+    padding: 0 0 0 1px;
+    width: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.portada{
+    background-image: url(imagenes/avatar-desktop.png);
+    background-position: center;
+    background-size: cover;
+    height: 430px;
+    padding: 100px;
+    padding-right: 600px;
+}
+
+.portada div h1{
+    font-family: sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.portada div:last-child{
+    background-color: #0084ff;
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+.menu-top{
+    background-color: #101c34;
+    margin: 10 auto 10 auto;
+    width: 1300px;
+    height: 100px;
+}
+
+.menu-top h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.pelis{
+    width: 1300px;
+    display: flex;
+    background-color: #101c34;
+    justify-content: space-evenly;
+    margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+}
+
+.pelis div{
+    width: 300px;
+    border-top: 0;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+.pelis div img{
+    width: 270px;
+    height: 100%;
+}
+
+.pelis p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    bottom: 55px;
+    right: 20px;
+}
+
+.salas-premium{
+    background-image: url(imagenes/light-purple.jpg);
+    height: 500px;
+    padding: 80px;
+    padding-right: 800px;
+}
+
+.salas-premium div{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.salas-premium div:last-child{
+    margin: 0;
+}
+
+.salas-premium p{
+    font-size: 25px;
+}
+
+.blue{
+    display: flex;
+}
+.blue p,i{
+    color: #0084ff;
+}
+
+.blue i{
+    padding-top: 10px;
+}
+
+.regala{
+    width: 1300px;
+    display: flex;
+    background-color: #101c34;
+    justify-content: space-evenly;
+    margin: 0 auto 0 auto;
+}
+
+.regala div{
+    width: 300px;
+    background-color: white;
+}
+
+.regala img{
+    width: 300px;
+}
