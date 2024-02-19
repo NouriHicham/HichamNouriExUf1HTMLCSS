@@ -193,13 +193,56 @@ header{
     background-color: #101c34;
     justify-content: space-evenly;
     margin: 0 auto 0 auto;
+    padding-bottom: 50px;
+    height: 500px;
 }
 
 .regala div{
-    width: 300px;
+    width: 350px;
     background-color: white;
 }
 
 .regala img{
-    width: 300px;
+    width: 350px;
+}
+
+.regala p,h3{
+    font-family: sans-serif;
+}
+
+.info{
+    display: flex;
+    color:#0084ff;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.reg{
+    margin-bottom: 12px;
+}
+
+.dentro{
+    padding-bottom: 40px;
+}
+
+.dentro2 p,h3{
+    width: 260px;
+    margin-left: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #101c34;
+    padding-bottom: 50px;
+}
+
+
+footer li{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    white-space:nowrap;
+    padding: 5px;
+    color: white;
 }
